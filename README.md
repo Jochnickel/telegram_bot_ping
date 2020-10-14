@@ -4,6 +4,8 @@
 - create new role, search for edge
 
 - create API Gateway
+- create route / ANY to lambda
+
 - setWebhookInfo with full url : **************.execute-api.eu-central-1.amazonaws.com/my-lambda-foo
 
 - current directory is readonly, you may use /tmp/database.db
