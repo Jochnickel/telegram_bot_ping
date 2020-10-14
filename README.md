@@ -5,3 +5,5 @@
 
 - create API Gateway
 - setWebhookInfo with full url : **************.execute-api.eu-central-1.amazonaws.com/my-lambda-foo
+
+- current directory is readonly, you may use /tmp/database.db
