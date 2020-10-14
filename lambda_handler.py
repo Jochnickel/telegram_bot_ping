@@ -5,9 +5,9 @@ import urllib.parse
 
 from botocore.vendored import requests
 
-URL = "https://api.telegram.org/bot1057097448:AAEojH8infz-eemFpJTOBb8kwM-e-kSP-Po/"
+URL = "https://api.telegram.org/bot__TOKEN__/"
 
-requests.get('https://api.telegram.org/bot1057097448:AAEojH8infz-eemFpJTOBb8kwM-e-kSP-Po/sendMessage?chat_id=99999999999999&text=starting_bot')
+requests.get('https://api.telegram.org/bot__TOKEN__/sendMessage?chat_id=99999999999999&text=starting_bot')
 
 def send_message(text, chat_id):
     final_text = str(text)
